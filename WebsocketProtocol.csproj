@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <PackageProjectUrl>http://www.pushframework.com/</PackageProjectUrl>
+    <Copyright>Copyright (C) 2017 Push Framework</Copyright>
+    <Description>A server side implementation of the websocket protocol that complies with the Protocol Framework</Description>
+    <Authors>Ahmed Charfedddine</Authors>
+    <Company>Push Framework</Company>
+    <PackageTags>websocket  protocol ProtocolFramework web</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.1</Version>
+    <RepositoryUrl>https://github.com/charfeddine-ahmed/WebsocketProtocol</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ProtocolFramework" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
